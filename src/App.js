@@ -1,24 +1,54 @@
-import logo from './logo.svg';
+import Carousel from 'react-3d-carousel-container';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Carousel bfc={false}>
+      <div style={{ width: '450px', padding: '30px' }}>
+        <img
+          className="img"
+          src="https://source.unsplash.com/nvzvOPQW0gc/500x500"
+          alt=""
+          style={{ display: 'block', width: '100%' }}
+        />
+      </div>
+
+      <div style={{ width: '450px', padding: '30px' }}>
+        <img
+          className="img"
+          src="https://source.unsplash.com/lFmuWU0tv4M/500x500"
+          alt=""
+          style={{ display: 'block', width: '100%' }}
+        />
+      </div>
+
+      <div style={{ width: '450px', padding: '30px' }}>
+        <img
+          className="img"
+          src="https://source.unsplash.com/aJYO8JmVodY/500x500"
+          alt=""
+          style={{ display: 'block', width: '100%' }}
+        />
+      </div>
+
+      <div style={{ width: '450px', padding: '30px' }}>
+        <img
+          className="img"
+          src="https://source.unsplash.com/aJYO8JmVodY/500x500"
+          alt=""
+          style={{ display: 'block', width: '100%' }}
+        />
+      </div>
+
+      <div style={{ width: '450px', padding: '30px' }}>
+        <img
+          className="img"
+          src="https://source.unsplash.com/aJYO8JmVodY/500x500"
+          alt=""
+          style={{ display: 'block', width: '100%' }}
+        />
+      </div>
+    </Carousel>
   );
 }
 
